@@ -1,8 +1,8 @@
 # travis-git
 
-Travis - [![Build Status](https://travis-ci.com/shubhadip/travis-git.svg?branch=master)](https://travis-ci.com/shubhadip/travis-git)
+[![Build Status](https://travis-ci.com/shubhadip/travis-git.svg?branch=master)](https://travis-ci.com/shubhadip/travis-git)
 
-CodeCov - [![codecov](https://codecov.io/gh/shubhadip/travis-git/branch/master/graph/badge.svg)](https://codecov.io/gh/shubhadip/travis-git)
+[![codecov](https://codecov.io/gh/shubhadip/travis-git/branch/master/graph/badge.svg)](https://codecov.io/gh/shubhadip/travis-git)
 
 ## Project setup
 ```
