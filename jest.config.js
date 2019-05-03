@@ -22,6 +22,7 @@ module.exports = {
   snapshotSerializers: [
     'jest-serializer-vue'
   ],
+  coverageReporters: ['lcov', 'text-summary'],
   testMatch: [
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
