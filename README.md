@@ -1,8 +1,5 @@
 # travis-git
 
-
-[![Build Status](https://travis-ci.com/shubhadip/travis-git.svg?branch=master)](https://travis-ci.com/shubhadip/travis-git)
-
 ## Project setup
 ```
 yarn install
