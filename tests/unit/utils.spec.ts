@@ -32,4 +32,9 @@ describe('All UpperCase Function', () => {
         expect(response).toBeFalsy()
         expect(response).toBe('')
     })
+    it('input avaliable', () => {
+        const response = allUpperCase('dsdf')
+        expect(response).toBeTruthy()
+        expect(response).toBe('DSDF')
+    })
 })
