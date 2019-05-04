@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run test:unit
-after_script:
-  - cat ./coverage/lcov.info | coveralls
+# after_script:
+#   - cat ./coverage/lcov.info
 after_success:
   - bash <(curl -s https://codecov.io/bash)
