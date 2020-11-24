@@ -20,7 +20,7 @@ describe('All LowerCase Function', () => {
         expect(response).toBe('')
     })
     it('input not avaliable', () => {
-        const response = allLowercase('sd')
+        const response = allLowercase('Sd')
         expect(response).toBeTruthy()
         expect(response).toBe('sd')
     })
