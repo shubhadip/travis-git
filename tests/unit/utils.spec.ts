@@ -27,9 +27,13 @@ describe('All LowerCase Function', () => {
 })
 
 describe('All UpperCase Function', () => {
-    // it('input avaliable', () => {
-    //     const response = allUpperCase('dsdf')
-    //     expect(response).toBeTruthy()
-    //     expect(response).toBe('DSDF')
-    // })
+    it('input avaliable', () => {
+        const response = allUpperCase('dsdf')
+        expect(response).toBeTruthy()
+        expect(response).toBe('DSDF')
+    })
+    it('input not  avaliable', () => {
+        const response = allUpperCase('')
+        expect(response).toBeFalsy()
+    })
 })

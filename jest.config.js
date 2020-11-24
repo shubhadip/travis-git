@@ -7,7 +7,6 @@ module.exports = {
     'ts',
     'tsx'
   ],
-  coverageReporters: ['lcov', 'text-summary'],
   transform: {
     '^.+\\.vue$': 'vue-jest',
     '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
@@ -22,7 +21,6 @@ module.exports = {
   snapshotSerializers: [
     'jest-serializer-vue'
   ],
-  coverageReporters: ['lcov', 'text-summary'],
   testMatch: [
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
