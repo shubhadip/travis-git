@@ -31,6 +31,5 @@ describe('All UpperCase Function', () => {
         const response = allUpperCase('dsdf')
         expect(response).toBeTruthy()
         expect(response).toBe('DSDF')
-        expect(response).toBe('DSDV')
     })
 })
