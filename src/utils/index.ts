@@ -21,5 +21,8 @@ export const allUpperCase = (input: string) => {
 }
 
 export const square = (input: number) => {
+    if(!input){
+        return ''
+    }
    return input * 2;
 }

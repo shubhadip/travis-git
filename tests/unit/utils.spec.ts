@@ -44,5 +44,4 @@ describe('square', () => {
         expect(response).toBeTruthy()
         expect(response).toBe(6)
     })
-
 })
