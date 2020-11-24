@@ -1,4 +1,4 @@
-import { capitalize, allLowercase, allUpperCase } from '../../src/utils/index'
+import { capitalize, allLowercase, allUpperCase, square } from '../../src/utils/index'
 
 describe('Test Capitalize Function', () => {
     it('input not avaliable', () => {
@@ -36,4 +36,13 @@ describe('All UpperCase Function', () => {
         const response = allUpperCase('')
         expect(response).toBeFalsy()
     })
+})
+
+describe('square', () => {
+    it('input avaliable', () => {
+        const response = square(3)
+        expect(response).toBeTruthy()
+        expect(response).toBe(6)
+    })
+
 })
