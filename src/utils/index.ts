@@ -19,3 +19,17 @@ export const allUpperCase = (input: string) => {
     }
     return input.toUpperCase()
 }
+
+export const square = (input?: number) => {
+    if(!input){
+        return ''
+    }
+   return input * input;
+}
+
+export const cube = (input?: number) => {
+    if(!input){
+        return ''
+    }
+   return input * input * input;
+}
