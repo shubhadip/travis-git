@@ -1,4 +1,4 @@
-import { capitalize, allLowercase, allUpperCase, square } from '../../src/utils/index'
+import { capitalize, allLowercase, allUpperCase, square, cube } from '../../src/utils/index'
 
 describe('Test Capitalize Function', () => {
     it('input not avaliable', () => {
@@ -47,6 +47,19 @@ describe('square', () => {
 
     it('input avaliable', () => {
         const response = square()
+        expect(response).toBeFalsy()
+    })
+})
+
+describe('cube', () => {
+    it('input avaliable', () => {
+        const response = cube(3)
+        expect(response).toBeTruthy()
+        expect(response).toBe(27)
+    })
+
+    it('input avaliable', () => {
+        const response = cube()
         expect(response).toBeFalsy()
     })
 })
