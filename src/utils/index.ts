@@ -20,7 +20,7 @@ export const allUpperCase = (input: string) => {
     return input.toUpperCase()
 }
 
-export const square = (input: number) => {
+export const square = (input?: number) => {
     if(!input){
         return ''
     }
