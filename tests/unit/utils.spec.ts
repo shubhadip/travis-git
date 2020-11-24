@@ -42,7 +42,7 @@ describe('square', () => {
     it('input avaliable', () => {
         const response = square(3)
         expect(response).toBeTruthy()
-        expect(response).toBe(6)
+        expect(response).toBe(9)
     })
 
     it('input avaliable', () => {

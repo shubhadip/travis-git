@@ -24,5 +24,12 @@ export const square = (input?: number) => {
     if(!input){
         return ''
     }
-   return input * 2;
+   return input * input;
+}
+
+export const cube = (input?: number) => {
+    if(!input){
+        return ''
+    }
+   return input * input * input;
 }
